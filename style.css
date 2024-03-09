@@ -5,6 +5,9 @@
     .menu{
         display: none;
     }
+    .perfil .foto-perfil{
+        align-items: center;
+    }
     
 }
 
@@ -49,11 +52,13 @@ body{
 header{
     padding: 60px 6%;
     margin-bottom: 9px;
+    
 }
 header .interface{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    
 }
 header .logo img{
     height: 120px;
@@ -77,10 +82,11 @@ header nav ul li{
 }
 /* empresa */
 .empresa{
-    background-image: url(images/hazegaragem.png);
+    background-image: url(images/carro2.jpg);
     background-repeat: no-repeat;
-    background-position: right top;
+    background-position: left bottom;
     background-size:cover;
+    box-shadow: 0 0 10px 2px #ffffff88;
 }
 .empresa .box{
 color: #a331e8;
@@ -93,6 +99,7 @@ text-align: center;
 }
 .empresa .box img{
     height: 300px;
+    border-radius: 20px;
 }
 .empresa .box h1{
     margin: 15px;
@@ -106,4 +113,24 @@ text-align: center;
 }
 .empresa .box span{
     color: #a331e8;
+}
+
+/* perfil */
+.perfil .foto-perfil img{
+    height: 300px;
+    border: solid #a331e8;
+    border-radius: 500px;
+    margin: 40px 4%;
+    box-shadow: 0 0 10px 2px #a331e8;
+}
+
+.perfil .txt-perfil{
+    margin: 50px 4%;
+    padding: 40px 4%;
+    color: #a331e8;
+}
+.perfil{
+    border-bottom:solid #a331e8;
+    border-spacing: 20px;
+    padding: 20px 4%;
 }
